@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "application"
+version = "0.1.0"
+description = ""
+authors = ["datttrian <datttrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.messages]
+disable = ["C0114", "C0116"]
